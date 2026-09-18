@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local configuration and tooling
+.env
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# Runtime-generated audio
+storage/jobs/*
+!storage/jobs/.gitkeep
+storage/uploads/*
+!storage/uploads/.gitkeep
